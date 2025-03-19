@@ -220,6 +220,10 @@
     border-radius: 6px;
     padding: 16px;
     background: #fff;
+    border: 1px solid transparent;
+    &:hover {
+        border: 1px solid #9bcffd;
+    }
     &:not(:last-child) {
         margin-bottom: 8px;
     }

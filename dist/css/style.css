@@ -444,6 +444,10 @@ body {
   border-radius: 6px;
   padding: 16px;
   background: #fff;
+  border: 1px solid transparent;
+}
+.card:hover {
+  border: 1px solid #9bcffd;
 }
 .card:not(:last-child) {
   margin-bottom: 8px;
