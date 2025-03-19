@@ -189,16 +189,13 @@
     display: flex;
     overflow: hidden;
     padding: 8px 0;
+    position: relative;
     &__container {
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-    }
-
-    &__items {
         overflow-y: auto;
         &::-webkit-scrollbar {
             width: 4px;
+            position: absolute;
+            right: -8px;
         }
         
         &::-webkit-scrollbar-track {
@@ -209,6 +206,9 @@
             background: rgba(26, 32, 36, 0.2); 
             border-radius: 2px; 
         }
+    }
+
+    &__items {
     }
     
 }

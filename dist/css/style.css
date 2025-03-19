@@ -419,26 +419,23 @@ body {
   display: flex;
   overflow: hidden;
   padding: 8px 0;
+  position: relative;
 }
 .cards__container {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-.cards__items {
   overflow-y: auto;
 }
-.cards__items::-webkit-scrollbar {
+.cards__container::-webkit-scrollbar {
   width: 4px;
+  position: absolute;
+  right: -8px;
 }
-.cards__items::-webkit-scrollbar-track {
+.cards__container::-webkit-scrollbar-track {
   background: transparent;
 }
-.cards__items::-webkit-scrollbar-thumb {
+.cards__container::-webkit-scrollbar-thumb {
   background: rgba(26, 32, 36, 0.2);
   border-radius: 2px;
 }
-
 .card {
   display: flex;
   align-items: center;
