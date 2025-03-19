@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Main</title>
+</head>
+<body>
+    <div class="wrapper">
+
+
+        <main class="page">
+            <header class="header">
+    <!-- <img src="img/profile.jpg" alt=""> -->
+    <div class="header__container container">
+        <div class="header__body">
+            <div class="header__left">
+                <div class="header__tab tab active">
+                    <span>Поездки</span>
+                </div>
+            </div>
+            <div class="header__right account">
+                <div class="account__body">
+                    <a href="" class="account__name">Заболоцкий К.О</a>
+                    <a href="" class="account__icon _icon-logout"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</header>
+            <section class="page__section menu">
+                <div class="menu__top">
+                    <div class="menu__container container">
+                        <div class="menu__body">
+                            <h1 class="menu__title title">Мои поездки</h1>
+                            <a href="" class="menu__btn btn">
+                                <div class="menu__icon _icon-plus"></div>
+                                <span>Оформить поездку</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="menu__bottom filters">
+                    <div class="filters__container container">
+                        <form action="#" class="filters__body">
+                            <div class="filters__left">
+                                <div class="filters__start">
+                                    <label for="date-start">Период с:</label>
+                                    <div class="filters__input">
+                                        <input
+                                            id="date-end"
+                                            name="date-end"
+                                            type="text"
+                                            value="22.02.2024"
+                                            placeholder="выбрать" 
+                                            required
+                                        >
+                                        <span class="filters__icon filters__icon_close _icon-close show"></span>
+                                        <span class="filters__icon filters__icon_calend _icon-calendar"></span>
+                                    </div>
+                                </div>
+                                <div class="filters__end">
+                                    <label for="date-end">по:</label>
+                                    <div class="filters__input">
+                                        <input
+                                            id="date-end"
+                                            name="date-end"
+                                            type="text"
+                                            placeholder="Выбрать..." 
+                                            value=""
+                                            required
+                                        >
+                                        <span class="filters__icon filters__icon_close _icon-close hide"></span>
+                                        <span class="filters__icon filters__icon_calend _icon-calendar"></span>
+                                    </div>
+                                </div>
+                                <div class="filters__search search">
+                                    <button type="button" class="search__btn _icon-loop"></button>
+                                    <input autocomplete="off" type="text" name="form[]" placeholder="Поиск..." class="search__input">
+                                </div>
+                                <div class="filters__reset">
+                                    <div class="filters__icon filters__icon_reset _icon-reset"></div>
+                                    <span>Сбросить все</span>
+                                </div>
+                            </div>
+                            <div class="filters__right">
+                                <label class="filters__checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    Показать архивные поездки
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <div class="page__divider divider">
+                <div class="divider__container container">
+                    <div class="divider__line">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+ 
+            <section class="page__section cards">
+                <div class="cards__container container">
+                    <div class="cards__items">
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000115</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000117</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000074</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">
+                                        Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск,  Волгоград
+                                    </div>
+                                    <div class="card__tooltip tooltip _icon-info">
+                                        <span class="tooltip__text">
+                                            Кременчуг-Константиновское,
+                                            Петропавловск-Камчатский,
+                                            Новосибирск, Волгоград, Саратов
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000115</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000211</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000118</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000119</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000120   </a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000115</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000115</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000115</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                        <div class="cards__item card">
+                            <div class="card__left">
+                                <div class="card__col number">
+                                    <div class="card__title">№ поездки</div>
+                                    <a href="" class="card__descr">000115</a>
+                                </div>
+                                <div class="card__col date">
+                                    <div class="card__title">Дата поездки</div>
+                                    <div class="card__descr">22.02.2024 - 27.02.2024</div>
+                                </div>
+                                <div class="card__col plan">
+                                    <div class="card__title">Сумма, план</div>
+                                    <div class="card__descr">29 400,00</div>
+                                </div>
+                                <div class="card__col fact">
+                                    <div class="card__title">Сумма, факт</div>
+                                    <div class="card__descr">29 400,00 </div>
+                                </div>
+                                <div class="card__col city">
+                                    <div class="card__title">Город</div>
+                                    <div class="card__descr">Москва, Ярославль, Ижевск, Владимир</div>
+                                </div>
+                            </div>
+                            <div class="card__right">
+                                <div class="card__title status">Статус</div>
+                                <div class="card__status doc">Документы</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+    
+    <script src="js/app.min.js"></script>
+</body>
+</html>
